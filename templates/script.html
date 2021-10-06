@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf8">
+    <title>Web page with one click Dial</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:600,900" rel="stylesheet">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+
+    <script>
+      function clickEvent(id) {
+      console.log(id);
+      $id = id
+      $.ajax({
+            url: '/',
+            type: 'POST',
+            data: {
+                id: $id
+            },
+            success: function (response) {
+            },
+            error: function (response) {
+            }
+        });
+    }
+
+    </script>  
+  </head>
+  <body>
+    <p class="heading">Web page with one click Dial</p>
+    <div class="gallery-image">
+      <div class="img-box">
+        <img src="{{ url_for('static', filename='images/1.png') }}" alt="" onclick="clickEvent(0)"/>
+      </div>
+      <div class="img-box">
+        <img src="{{ url_for('static', filename='images/2.png') }}" alt="" onclick="clickEvent(1)"/>
+      </div>
+      <div class="img-box">
+        <img src="{{ url_for('static', filename='images/3.png') }}" alt="" onclick="clickEvent(2)" />
+      </div>
+      <div class="img-box">
+        <img src="{{ url_for('static', filename='images/4.png') }}" alt="" onclick="clickEvent(3)"/>
+      </div>
+      <div class="img-box">
+        <img src="{{ url_for('static', filename='images/5.png') }}" alt="" onclick="clickEvent(4)"/>
+      </div>
+      <div class="img-box">
+        <img src="{{ url_for('static', filename='images/6.png') }}" alt="" onclick="clickEvent(5)"/>
+      </div>
+      <!-- You can add new photo icon by copy and paste, don't forget change image name -->
+    </div>  
+    
+    
+  </body>
+</html>
