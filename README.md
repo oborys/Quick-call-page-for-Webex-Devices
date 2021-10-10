@@ -48,8 +48,7 @@ Then app send id in python function and write related SIP from the `SIPLIST` var
 
 By default there you can find an SIP address that allows you to test the app.
 
-For make visible in Webex Device Screen we need to add icon and link to external app (that we deploy in next steps)
-
+For make visible in Webex Device Screen we need to add icon and link to external app (that we deploy in next steps). [Instructions here](https://github.com/oborys/Quick-call-page-for-Webex-Devices#create-web-app-in-your-webex-device-gui)
 
 
 ## Instalation
@@ -119,6 +118,16 @@ Open your Heroku app.
 add related URL in URL Field and upload it to the Webex device
 
 ![](img/Create_Web_App.png)
+
+## Related Sandbox
+
+[CE programmability for Webex Devices](https://devnetsandbox.cisco.com/RM/Diagram/Index/937bd886-3eed-45a2-afe0-8c48337e8bea?diagramType=Topology)
+Capabilities:
+- Discover the admin interface from your laptops Web browser
+
+- Open an ssh session to the Room Kit and enter t-shell commands: `xconfig`, `xstatus` and `xcommand`
+
+- Invoke the device's xAPI via HTTP requests and Node.js scripts thanks to the `jsxapi` wrapper
 
 ### Useful link
 - [HTTP request from Webex device](https://help.webex.com/en-US/article/nthg6le/Sending-HTTP-Requests-from-a-Board,-Room,-or-Desk-Device)
