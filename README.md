@@ -8,7 +8,11 @@ The solution allows you to create a helpful Directory with an extensive photo/na
 
 **Open web interface of your Webex device**
 
+![](img/Desk_Pro_GUI.png)
+
 Using Webex device GUI, you need to make the following changes. First, go to Setup -> Configurations In the left menu, choose HttpClient settings and change AllowInsecureHTTPS from False to True.
+
+![](img/Webex_device_Settings.png)
 
 OR Open terminal
 
@@ -44,6 +48,10 @@ Then app send id in python function and write related SIP from the `SIPLIST` var
 
 By default there you can find an SIP address that allows you to test the app.
 
+For make visible in Webex Device Screen we need to add icon and link to external app (that we deploy in next steps)
+
+
+
 ## Instalation
 
 **Deploy internal**
@@ -59,7 +67,7 @@ flask run
 
 Open app [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
-![](Quick-call-page.png)
+![](img/Quick-call-page.png)
 
 **Or Deploy external**
 In related folder
@@ -104,8 +112,13 @@ git push heroku master
 
 Open your Heroku app.
 
-Create Web App in your Webex device GUI,
-add related URL in URL Field
+## Create Web App in your Webex device GUI
+
+![](img/UI_Extensions_configuration.png)
+
+add related URL in URL Field and upload it to the Webex device
+
+![](img/Create_Web_App.png)
 
 ### Useful link
 - [HTTP request from Webex device](https://help.webex.com/en-US/article/nthg6le/Sending-HTTP-Requests-from-a-Board,-Room,-or-Desk-Device)
