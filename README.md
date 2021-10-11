@@ -51,7 +51,7 @@ By default there you can find an SIP address that allows you to test the app.
 For make visible in Webex Device Screen we need to add icon and link to external app (that we deploy in next steps). [Instructions here](https://github.com/oborys/Quick-call-page-for-Webex-Devices#create-web-app-in-your-webex-device-gui)
 
 
-## Instalation
+## Installation
 
 **Deploy internal**
 ```
