@@ -1,5 +1,9 @@
 # Quick call page for Webex Devices
 
+Simple app for Webex one tap to call (DEMO)
+
+![Webex one tap to call](img/webex-one-tap-to-call.gif)
+
 Web page and Macros for Webex Devices provide you interface to create a page with one click Dial. 
 
 The solution allows you to create a helpful Directory with an extensive photo/name of the contact and call it with one click.
