@@ -125,7 +125,9 @@ add related URL in URL Field and upload it to the Webex device
 
 ## Related Sandbox
 
-[CE programmability for Webex Devices](https://devnetsandbox.cisco.com/RM/Diagram/Index/937bd886-3eed-45a2-afe0-8c48337e8bea?diagramType=Topology)
+[Webex Developer Sandbox](https://developer.webex.com/docs/developer-sandbox-guide)
+
+[CE programmability for Webex Devices](https://devnetsandbox.cisco.com/RM/Diagram/Index/937bd886-3eed-45a2-afe0-8c48337e8bea?diagramType=Topology) [Deprecated]
 Capabilities:
 - Discover the admin interface from your laptops Web browser
 
